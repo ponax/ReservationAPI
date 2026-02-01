@@ -2517,17 +2517,17 @@ The README.md has been updated to accurately reflect the current implementation:
 
 Key updates:
 
-✅ Corrected project structure with `crud.py`, `deps.py`, and proper route organization
-✅ Updated to show SQLModel (not just SQLAlchemy)
-✅ Added PATCH endpoints for partial updates
-✅ Documented overlap detection logic
-✅ Updated API endpoint paths (e.g., `/api/health` instead of `/health`)
-✅ Added room deletion endpoint with cascade behavior
-✅ Updated database section to mention CASCADE delete and SQLModel
-✅ Expanded business rules with detailed validation logic
-✅ Added error handling section with HTTP status codes
-✅ Updated code structure to mention SessionDep and design patterns
-✅ Added testing strategy details including overlap tests
-✅ Updated usage examples with correct datetime format (naive UTC)
-✅ Added troubleshooting section
-✅ Mentioned `fastapi dev` as the primary way to run the app
+- ✅ Corrected project structure with `crud.py`, `deps.py`, and proper route organization
+- ✅ Updated to show SQLModel (not just SQLAlchemy)
+- ✅ Added PATCH endpoints for partial updates
+- ✅ Documented overlap detection logic
+- ✅ Updated API endpoint paths (e.g., `/api/health` instead of `/health`)
+- ✅ Added room deletion endpoint with cascade behavior
+- ✅ Updated database section to mention CASCADE delete and SQLModel
+- ✅ Expanded business rules with detailed validation logic
+- ✅ Added error handling section with HTTP status codes
+- ✅ Updated code structure to mention SessionDep and design patterns
+- ✅ Added testing strategy details including overlap tests
+- ✅ Updated usage examples with correct datetime format (naive UTC)
+- ✅ Added troubleshooting section
+- ✅ Mentioned `fastapi dev` as the primary way to run the app
